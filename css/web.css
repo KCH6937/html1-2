@@ -1,0 +1,97 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%; 
+	height: 100%;
+	display: inline-block;
+	background-color: #696969;
+	margin: 0 auto;
+}
+
+.side{
+	display: table-row;
+	width: 18%; 
+	height: 100%;
+	margin-left: 2%;
+	float: left;
+}
+
+.content {
+	width:  76%;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+}
+
+.side-logoBox {
+	width :100%;
+	height: 33%;
+	margin: 0 auto;
+}
+
+.side-loginBox {
+	width :100%;
+	height: 33%;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.content-menu{
+	background-color: #5a5a5a;
+	width: 100%;
+	height: 5%;
+	display: inline-block;
+}
+
+.content-menu-item {
+	color:white;
+	width:24%;
+	height:70%;
+	float: left;
+	text-align: center;
+	padding: 5px;
+}
+
+.content-menu-item a {
+	text-decoration: none;
+	color: white;
+}
+
+.content-menu-dropdown {
+	display: none;
+	position:absolute;
+	height: 7%;
+	z-index: 1;
+	text-align: center;
+}
+
+.content-menu-item:hover .content-menu-dropdown {
+	display: block;
+
+}
+
+.content-flash {
+	width: 100%;
+	height:70%;
+
+}
+
+.content-footer {
+	display: inline-block;
+	width:100%;
+	height: 20%;
+}
+
+.content-footerItem {
+	float:left;
+	width:33%;
+	height:100%;
+}
