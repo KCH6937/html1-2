@@ -90,6 +90,10 @@ body {
 	height:80%;
 }
 
+.content-flash-imgbox {
+	display: none;
+	
+}
 /*.content-footer {
 	display: inline-block;
 	width:100%;
