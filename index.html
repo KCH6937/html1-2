@@ -15,62 +15,62 @@
 
 	<div class="wrapper">
 		<div class="side">
-			 <div class = "side-logoBox" style="background-image: url('./resource/logo.png');
+			 <div class = "side-logoBox"  onclick="refresh(this)" style="background-image: url('./resource/logo.png');
 			 background-repeat: no-repeat;">
 			 </div>
 
-			<div class="side-loginBox">
-				<form style="margin-top: 35%; margin-left:5%;">
-					<label style="margin-right: 16px;">아이디</label>
-					<input type="text" name=""><br>
-					<label>비밀번호</label>
-					<input type="password" name="">					
-				</form>
+			<div class="side-content">
+
+			</div><br>
+
+			<div class="side-content">
+
 			</div>
+
+
 		</div>
 
 		<div class="content">
 			<div class="content-menu">
 				<div class="content-menu-item" onmouseover="menuChange(this, 'black')" onmouseout="menuChange(this, '#5a5a5a')">
 					<a href="#">ABOUT</a>
-					<div class="content-menu-dropdown" style="margin-left:6%;">
-						<p style="cursor: pointer;" onclick="menuClicked('Clicked')">HTML의 역사</p><br>
-						<a href="#">HTML 5</a>
+					<div class="content-menu-dropdown">
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>HTML5는 웹 문서를 만들기 위한 기본 프로그래밍 언어 ‘HTML(Hyper Text Markup Language)’의 최신규격이다. HTML5는 엑티브X(Active X)를 설치하지 않아도 동일한 기능을 구현할 수 있고, 특히 플래시(flash)나 실버라이트(Silverlight), 자바FX(JAVA FX) 없이도 웹 브라우저(web browser)에서 화려한 그래픽 효과를 낼 수 있다.<p><br>">HTML의 역사</p>
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>default<p>')">HTML 5</p>
 					</div>
 				</div>
 
 				<div class="content-menu-item" onmouseover="menuChange(this, 'black')" onmouseout="menuChange(this, '#5a5a5a')">
 					<a href="#">GUIDE</a>
-					<div class="content-menu-dropdown" style="margin-left:6%;">
-						<a href="#">HTML 개발 툴</a><br>
-						<a href="#">html5 사용법</a>
+					<div class="content-menu-dropdown">
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>default1<p>')">HTML 개발 툴</p>
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>default2<p>')">HTML5 사용법</p>
 					</div>
 				</div>
 				<div class="content-menu-item" onmouseover="menuChange(this, 'black')" onmouseout="menuChange(this, '#5a5a5a')">
 					<a href="#">JOB INFORMATION</a>
-					<div class="content-menu-dropdown" style="margin-left:5.3%;">
-						<a href="#">HTML 관련 직종</a>						
+					<div class="content-menu-dropdown">
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>default3<p>')">WEB 관련 직종</p>
 					</div>
 				</div>
 				<div class="content-menu-item" onmouseover="menuChange(this, 'black')" onmouseout="menuChange(this, '#5a5a5a')">
 					<a href="#">BOARD</a>
-					<div class="content-menu-dropdown" style="margin-left:5.3%;">
-						<a href="#">HTML 사용 후기</a><br>
-						<a href="#">html 전망</a>
+					<div class="content-menu-dropdown">
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>default4<p>')">HTML 사용 후기</p>
+						<p style="cursor: pointer;" onclick="menuClicked('<p style=padding:1%;>default5<p>')">HTML 전망</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-flash">
-				<p id="info"></p>
+				<p id="info">lklklkl</p>
 			</div>
 
-			<div class="content-footer">
+<!--			<div class="content-footer">
 				<div class="content-footerItem">ad</div>
 				<div class="content-footerItem">ad</div>
 				<div class="content-footerItem">asd</div>
-
-			</div>
+			</div> -->
 		</div>
 	</div>
 
